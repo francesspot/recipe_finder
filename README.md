@@ -1,25 +1,19 @@
-**Polski** | [English](README.en.md)
+🇵🇱 **Polski** | 🇬🇧 [English](README.en.md)
 
-# Recipe Finder
+# 🍲 Recipe Finder
 
-Aplikacja we Flutterze do wyszukiwania przepisów — **na wczesnym etapie**.
+![Flutter](https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white) ![Dart](https://img.shields.io/badge/Dart-0175C2?logo=dart&logoColor=white)
 
-## Stan projektu
+> 🎓 Projekt ze ścieżki mobilnej **Wakacyjnego Wyzwania 2025** koła naukowego **KN Solvro** (Politechnika Wrocławska)
 
-Na razie repozytorium zawiera przygotowanie projektu:
+🚧 **Projekt na wczesnym etapie.** Plan: aplikacja do wyszukiwania przepisów kulinarnych pobieranych z API, ze zdjęciami potraw i zapisywaniem ulubionych.
 
-- projekt Fluttera (`recipes_finder/`) wygenerowany dla Androida, iOS, web, Windowsa, macOS i Linuxa,
-- zaplanowane zależności: `http` i `dio` (pobieranie przepisów z API), `cached_network_image` (zdjęcia potraw) i `shared_preferences` (zapis danych lokalnie),
-- ekran startowy w `lib/main2.dart` (domyślna aplikacja-licznik Fluttera).
+Na razie jest przygotowany projekt Fluttera (Android, iOS, web, desktop) z zależnościami pod pobieranie danych (`dio`, `http`), cache zdjęć (`cached_network_image`) i zapis lokalny (`shared_preferences`).
 
-Samo wyszukiwanie przepisów nie zostało jeszcze zaimplementowane.
-
-## Uruchomienie
+## 🚀 Uruchomienie
 
 ```bash
 cd recipes_finder
 flutter pub get
 flutter run -t lib/main2.dart
 ```
-
-Wymagany Flutter z Dart SDK 3.9 lub nowszym.
